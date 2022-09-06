@@ -47,8 +47,8 @@ function App() {
         listDigimon.map((e) => 
          <Digimon
          name={e.name}
-         level={e.level}
-         image={e.img}
+         name={e.name}
+         name={e.name}
          />
         )
       }

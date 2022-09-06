@@ -45,11 +45,7 @@ function App() {
     <div className="App">
       {
         listDigimon.map((e) => 
-         <Digimon
-         name={e.name}
-         level={e.level}
-         image={e.img}
-         />
+         <Digimon/>
         )
       }
     </div>

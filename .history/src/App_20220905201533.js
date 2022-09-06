@@ -1,5 +1,4 @@
-import React from "react";
-import Digimon from "./Digimon";
+import 
 import './App.css';
 
 function App() {
@@ -43,15 +42,7 @@ function App() {
 ]
   return (
     <div className="App">
-      {
-        listDigimon.map((e) => 
-         <Digimon
-         name={e.name}
-         level={e.level}
-         image={e.img}
-         />
-        )
-      }
+      
     </div>
   );
 }

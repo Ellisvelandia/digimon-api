@@ -48,7 +48,7 @@ function App() {
          <Digimon
          name={e.name}
          level={e.level}
-         image={e.img}
+         name={e.img}
          />
         )
       }
