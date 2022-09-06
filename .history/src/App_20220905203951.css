@@ -1,7 +1,11 @@
 body {
-  background-image: url("https://64.media.tumblr.com/3c869e4de93ae5e91f03553be9019335/tumblr_p6idqbWvgp1st5shfo1_1280.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-image: url(https://wallpaperaccess.com/full/1186563.jpg) center ;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .App {
@@ -9,11 +13,10 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   padding: 20px;
-  color: rgb(7, 51, 247);
 }
 
 .digitCard {
-  border: 3px solid rgb(7, 7, 7);
+  border: 1px solid #000;
   border-radius: 10px;
 }
 

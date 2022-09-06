@@ -9,11 +9,11 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   padding: 20px;
-  color: rgb(7, 51, 247);
+  color: rgb(255, 255, 255);
 }
 
 .digitCard {
-  border: 3px solid rgb(7, 7, 7);
+  border: 1px solid #000;
   border-radius: 10px;
 }
 
