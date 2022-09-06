@@ -1,0 +1,23 @@
+.App {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap:20px;
+padding: 20px;
+}
+
+.digitCard {
+border: 1px solid #000;
+border-radius: 10px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.level {
+  font: 20px;
+  
+}
